@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00F4BDA21A20B250007E209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BD921A20B250007E209 /* AppDelegate.swift */; };
+		B00F4BDF21A20B250007E209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00F4BDD21A20B250007E209 /* Main.storyboard */; };
+		B00F4BE121A20B260007E209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00F4BE021A20B260007E209 /* Assets.xcassets */; };
+		B00F4BE421A20B260007E209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00F4BE221A20B260007E209 /* LaunchScreen.storyboard */; };
+		B00F4BED21A20E4B0007E209 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BEC21A20E4B0007E209 /* EventsViewController.swift */; };
+		B00F4BF221A22C470007E209 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BF121A22C470007E209 /* EventsViewModel.swift */; };
+		B00F4BF421A22CAE0007E209 /* TableViewModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BF321A22CAE0007E209 /* TableViewModelable.swift */; };
+		B00F4BF621A232540007E209 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BF521A232540007E209 /* EventInfoViewController.swift */; };
+		B00F4BF821A232980007E209 /* EventInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BF721A232980007E209 /* EventInfoViewModel.swift */; };
+		B00F4BFB21A23F5D0007E209 /* EventMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BFA21A23F5D0007E209 /* EventMapTableViewCell.swift */; };
+		B00F4BFE21A2488F0007E209 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = B00F4BFD21A2488F0007E209 /* events.json */; };
+		B00F4C0121A249860007E209 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C0021A249860007E209 /* Event.swift */; };
+		B00F4C0321A24ABD0007E209 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C0221A24ABD0007E209 /* Events.swift */; };
+		B00F4C0621A24C9A0007E209 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C0521A24C9A0007E209 /* EventTableViewCell.swift */; };
+		B00F4C0821A24DD40007E209 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C0721A24DD40007E209 /* EventViewModel.swift */; };
+		B00F4C0A21A252070007E209 /* EventHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C0921A252070007E209 /* EventHeaderTableViewCell.swift */; };
+		B00F4C0C21A252140007E209 /* EventDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C0B21A252140007E209 /* EventDescriptionTableViewCell.swift */; };
+		B00F4C0E21A2545C0007E209 /* EventViewModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C0D21A2545C0007E209 /* EventViewModelable.swift */; };
+		B01BE02C21D96F9500A67E69 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01BE02B21D96F9500A67E69 /* JSONService.swift */; };
+		B01BE02E21D9705000A67E69 /* JSONError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01BE02D21D9705000A67E69 /* JSONError.swift */; };
+		B06D859C21A4860E00C23954 /* residences.json in Resources */ = {isa = PBXBuildFile; fileRef = B06D859B21A4860E00C23954 /* residences.json */; };
+		B06D859E21A4864700C23954 /* Residences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D859D21A4864700C23954 /* Residences.swift */; };
+		B06D85A021A4867400C23954 /* Residence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D859F21A4867400C23954 /* Residence.swift */; };
+		B06D85A321A487F600C23954 /* ResidencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D85A221A487F600C23954 /* ResidencesViewController.swift */; };
+		B06D85A621A488D500C23954 /* ResidencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D85A521A488D500C23954 /* ResidencesViewModel.swift */; };
+		B06D85A821A48D7200C23954 /* ResidenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D85A721A48D7200C23954 /* ResidenceTableViewCell.swift */; };
+		B06D85AA21A48E9700C23954 /* ResidenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D85A921A48E9700C23954 /* ResidenceViewModel.swift */; };
+		B06D85AC21A48EFC00C23954 /* ResidenceViewModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D85AB21A48EFC00C23954 /* ResidenceViewModelable.swift */; };
+		B08E8AD821A4B2D9008C7592 /* ResidenceLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E8AD721A4B2D9008C7592 /* ResidenceLocationDelegate.swift */; };
+		B094BB7021A3868F00C3746B /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094BB6F21A3868F00C3746B /* UserDefaultsExtensions.swift */; };
+		B094BB7321A3921A00C3746B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094BB7221A3921A00C3746B /* MapViewController.swift */; };
+		B094BB7521A3927800C3746B /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = B094BB7421A3927800C3746B /* locations.json */; };
+		B094BB7821A3929100C3746B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094BB7721A3929100C3746B /* MapViewModel.swift */; };
+		B094BB7A21A392BC00C3746B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094BB7921A392BC00C3746B /* Location.swift */; };
+		B094BB7C21A392FF00C3746B /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094BB7B21A392FF00C3746B /* Locations.swift */; };
+		B0E36B5321A4D0E000A6681F /* mapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = B0E36B5221A4D0E000A6681F /* mapStyle.json */; };
+		B0E36B5521A4D2DE00A6681F /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36B5421A4D2DE00A6681F /* LocationSearchViewController.swift */; };
+		B0E36B5721A4D84500A6681F /* MatchedLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36B5621A4D84500A6681F /* MatchedLocationTableViewCell.swift */; };
+		B0E36B5921A4DA0F00A6681F /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36B5821A4DA0F00A6681F /* LocationDelegate.swift */; };
+		B0E36B5B21A4DAA300A6681F /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36B5A21A4DAA300A6681F /* LocationViewModel.swift */; };
+		B0E36B5D21A4DAC200A6681F /* LocationViewModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36B5C21A4DAC200A6681F /* LocationViewModelable.swift */; };
+		FA9BB69737E7F8951F77ED1D /* libPods-UofG Campus Day.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94257A38AC0BB94FE0814A1A /* libPods-UofG Campus Day.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29E5207987B94B359B7A0882 /* Pods-UofG Campus Day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UofG Campus Day.release.xcconfig"; path = "Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day.release.xcconfig"; sourceTree = "<group>"; };
+		87F7942950938DCB7F121A9D /* Pods-UofG Campus Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UofG Campus Day.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day.debug.xcconfig"; sourceTree = "<group>"; };
+		94257A38AC0BB94FE0814A1A /* libPods-UofG Campus Day.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UofG Campus Day.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00F4BD621A20B250007E209 /* UofG Campus Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UofG Campus Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00F4BD921A20B250007E209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00F4BDE21A20B250007E209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00F4BE021A20B260007E209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00F4BE321A20B260007E209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00F4BE521A20B260007E209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00F4BEC21A20E4B0007E209 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		B00F4BF121A22C470007E209 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		B00F4BF321A22CAE0007E209 /* TableViewModelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelable.swift; sourceTree = "<group>"; };
+		B00F4BF521A232540007E209 /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
+		B00F4BF721A232980007E209 /* EventInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoViewModel.swift; sourceTree = "<group>"; };
+		B00F4BFA21A23F5D0007E209 /* EventMapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapTableViewCell.swift; sourceTree = "<group>"; };
+		B00F4BFD21A2488F0007E209 /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		B00F4C0021A249860007E209 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		B00F4C0221A24ABD0007E209 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		B00F4C0521A24C9A0007E209 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		B00F4C0721A24DD40007E209 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		B00F4C0921A252070007E209 /* EventHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B00F4C0B21A252140007E209 /* EventDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		B00F4C0D21A2545C0007E209 /* EventViewModelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModelable.swift; sourceTree = "<group>"; };
+		B01BE02B21D96F9500A67E69 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
+		B01BE02D21D9705000A67E69 /* JSONError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONError.swift; sourceTree = "<group>"; };
+		B06D859B21A4860E00C23954 /* residences.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = residences.json; sourceTree = "<group>"; };
+		B06D859D21A4864700C23954 /* Residences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residences.swift; sourceTree = "<group>"; };
+		B06D859F21A4867400C23954 /* Residence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residence.swift; sourceTree = "<group>"; };
+		B06D85A221A487F600C23954 /* ResidencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidencesViewController.swift; sourceTree = "<group>"; };
+		B06D85A521A488D500C23954 /* ResidencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidencesViewModel.swift; sourceTree = "<group>"; };
+		B06D85A721A48D7200C23954 /* ResidenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidenceTableViewCell.swift; sourceTree = "<group>"; };
+		B06D85A921A48E9700C23954 /* ResidenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidenceViewModel.swift; sourceTree = "<group>"; };
+		B06D85AB21A48EFC00C23954 /* ResidenceViewModelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidenceViewModelable.swift; sourceTree = "<group>"; };
+		B08E8AD721A4B2D9008C7592 /* ResidenceLocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidenceLocationDelegate.swift; sourceTree = "<group>"; };
+		B094BB6F21A3868F00C3746B /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		B094BB7221A3921A00C3746B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B094BB7421A3927800C3746B /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		B094BB7721A3929100C3746B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		B094BB7921A392BC00C3746B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B094BB7B21A392FF00C3746B /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		B0A99CC321D6667A006D4F62 /* UofG Campus Day.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UofG Campus Day.entitlements"; sourceTree = "<group>"; };
+		B0E36B5221A4D0E000A6681F /* mapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mapStyle.json; sourceTree = "<group>"; };
+		B0E36B5421A4D2DE00A6681F /* LocationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
+		B0E36B5621A4D84500A6681F /* MatchedLocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedLocationTableViewCell.swift; sourceTree = "<group>"; };
+		B0E36B5821A4DA0F00A6681F /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		B0E36B5A21A4DAA300A6681F /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		B0E36B5C21A4DAC200A6681F /* LocationViewModelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationViewModelable.swift; path = "UofG Campus Day/ViewModels/LocationViewModelable.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00F4BD321A20B250007E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9BB69737E7F8951F77ED1D /* libPods-UofG Campus Day.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00F4BCD21A20B250007E209 = {
+			isa = PBXGroup;
+			children = (
+				B00F4BD821A20B250007E209 /* UofG Campus Day */,
+				B00F4BD721A20B250007E209 /* Products */,
+				B00F4C0F21A25E3E0007E209 /* Frameworks */,
+				F0136D0431506F7197473066 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B00F4BD721A20B250007E209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00F4BD621A20B250007E209 /* UofG Campus Day.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00F4BD821A20B250007E209 /* UofG Campus Day */ = {
+			isa = PBXGroup;
+			children = (
+				B0A99CC321D6667A006D4F62 /* UofG Campus Day.entitlements */,
+				B00F4BFC21A248730007E209 /* Data */,
+				B094BB6E21A3868000C3746B /* Extensions */,
+				B00F4BFF21A2497D0007E209 /* Entities */,
+				B00F4BEF21A22C0E0007E209 /* ViewModels */,
+				B00F4BEE21A22C070007E209 /* Views */,
+				B01BE02A21D96F7C00A67E69 /* API */,
+				B00F4BD921A20B250007E209 /* AppDelegate.swift */,
+				B00F4BDD21A20B250007E209 /* Main.storyboard */,
+				B00F4BE021A20B260007E209 /* Assets.xcassets */,
+				B00F4BE221A20B260007E209 /* LaunchScreen.storyboard */,
+				B00F4BE521A20B260007E209 /* Info.plist */,
+			);
+			path = "UofG Campus Day";
+			sourceTree = "<group>";
+		};
+		B00F4BEB21A20E3E0007E209 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				B00F4BEC21A20E4B0007E209 /* EventsViewController.swift */,
+				B00F4C0521A24C9A0007E209 /* EventTableViewCell.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		B00F4BEE21A22C070007E209 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B06D85A121A487E800C23954 /* Residence */,
+				B094BB7121A3920E00C3746B /* Map */,
+				B00F4BF921A23F440007E209 /* EventDetails */,
+				B00F4BEB21A20E3E0007E209 /* Events */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B00F4BEF21A22C0E0007E209 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B06D85A421A488C700C23954 /* Residence */,
+				B094BB7621A3928400C3746B /* Map */,
+				B00F4BF021A22C3C0007E209 /* Events */,
+				B00F4C0421A24C780007E209 /* EventDetails */,
+				B00F4BF321A22CAE0007E209 /* TableViewModelable.swift */,
+				B00F4C0D21A2545C0007E209 /* EventViewModelable.swift */,
+				B06D85AB21A48EFC00C23954 /* ResidenceViewModelable.swift */,
+				B0E36B5C21A4DAC200A6681F /* LocationViewModelable.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B00F4BF021A22C3C0007E209 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				B00F4BF121A22C470007E209 /* EventsViewModel.swift */,
+				B00F4C0721A24DD40007E209 /* EventViewModel.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		B00F4BF921A23F440007E209 /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B00F4BF521A232540007E209 /* EventInfoViewController.swift */,
+				B00F4C0B21A252140007E209 /* EventDescriptionTableViewCell.swift */,
+				B00F4C0921A252070007E209 /* EventHeaderTableViewCell.swift */,
+				B00F4BFA21A23F5D0007E209 /* EventMapTableViewCell.swift */,
+			);
+			path = EventDetails;
+			sourceTree = "<group>";
+		};
+		B00F4BFC21A248730007E209 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B01BE02F21D9759000A67E69 /* Configuration */,
+				B00F4BFD21A2488F0007E209 /* events.json */,
+				B094BB7421A3927800C3746B /* locations.json */,
+				B06D859B21A4860E00C23954 /* residences.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B00F4BFF21A2497D0007E209 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B00F4C0221A24ABD0007E209 /* Events.swift */,
+				B00F4C0021A249860007E209 /* Event.swift */,
+				B094BB7B21A392FF00C3746B /* Locations.swift */,
+				B094BB7921A392BC00C3746B /* Location.swift */,
+				B06D859D21A4864700C23954 /* Residences.swift */,
+				B06D859F21A4867400C23954 /* Residence.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B00F4C0421A24C780007E209 /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B00F4BF721A232980007E209 /* EventInfoViewModel.swift */,
+			);
+			path = EventDetails;
+			sourceTree = "<group>";
+		};
+		B00F4C0F21A25E3E0007E209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94257A38AC0BB94FE0814A1A /* libPods-UofG Campus Day.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B01BE02A21D96F7C00A67E69 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B01BE02B21D96F9500A67E69 /* JSONService.swift */,
+				B01BE02D21D9705000A67E69 /* JSONError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B01BE02F21D9759000A67E69 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B0E36B5221A4D0E000A6681F /* mapStyle.json */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		B06D85A121A487E800C23954 /* Residence */ = {
+			isa = PBXGroup;
+			children = (
+				B06D85A221A487F600C23954 /* ResidencesViewController.swift */,
+				B06D85A721A48D7200C23954 /* ResidenceTableViewCell.swift */,
+			);
+			path = Residence;
+			sourceTree = "<group>";
+		};
+		B06D85A421A488C700C23954 /* Residence */ = {
+			isa = PBXGroup;
+			children = (
+				B06D85A521A488D500C23954 /* ResidencesViewModel.swift */,
+				B06D85A921A48E9700C23954 /* ResidenceViewModel.swift */,
+				B08E8AD721A4B2D9008C7592 /* ResidenceLocationDelegate.swift */,
+			);
+			path = Residence;
+			sourceTree = "<group>";
+		};
+		B094BB6E21A3868000C3746B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B094BB6F21A3868F00C3746B /* UserDefaultsExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B094BB7121A3920E00C3746B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B094BB7221A3921A00C3746B /* MapViewController.swift */,
+				B0E36B5421A4D2DE00A6681F /* LocationSearchViewController.swift */,
+				B0E36B5621A4D84500A6681F /* MatchedLocationTableViewCell.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B094BB7621A3928400C3746B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B094BB7721A3929100C3746B /* MapViewModel.swift */,
+				B0E36B5821A4DA0F00A6681F /* LocationDelegate.swift */,
+				B0E36B5A21A4DAA300A6681F /* LocationViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F0136D0431506F7197473066 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87F7942950938DCB7F121A9D /* Pods-UofG Campus Day.debug.xcconfig */,
+				29E5207987B94B359B7A0882 /* Pods-UofG Campus Day.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00F4BD521A20B250007E209 /* UofG Campus Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00F4BE821A20B260007E209 /* Build configuration list for PBXNativeTarget "UofG Campus Day" */;
+			buildPhases = (
+				0BC9EFD6B4DDE02855767828 /* [CP] Check Pods Manifest.lock */,
+				B00F4BD221A20B250007E209 /* Sources */,
+				B00F4BD321A20B250007E209 /* Frameworks */,
+				B00F4BD421A20B250007E209 /* Resources */,
+				C3D7F37DB870422577D91DC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UofG Campus Day";
+			productName = "UofG Campus Day";
+			productReference = B00F4BD621A20B250007E209 /* UofG Campus Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00F4BCE21A20B250007E209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Domenic Bianchi";
+				TargetAttributes = {
+					B00F4BD521A20B250007E209 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B00F4BD121A20B250007E209 /* Build configuration list for PBXProject "UofG Campus Day" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00F4BCD21A20B250007E209;
+			productRefGroup = B00F4BD721A20B250007E209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00F4BD521A20B250007E209 /* UofG Campus Day */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00F4BD421A20B250007E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00F4BFE21A2488F0007E209 /* events.json in Resources */,
+				B00F4BE421A20B260007E209 /* LaunchScreen.storyboard in Resources */,
+				B06D859C21A4860E00C23954 /* residences.json in Resources */,
+				B094BB7521A3927800C3746B /* locations.json in Resources */,
+				B00F4BE121A20B260007E209 /* Assets.xcassets in Resources */,
+				B0E36B5321A4D0E000A6681F /* mapStyle.json in Resources */,
+				B00F4BDF21A20B250007E209 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC9EFD6B4DDE02855767828 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UofG Campus Day-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D7F37DB870422577D91DC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00F4BD221A20B250007E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00F4C0121A249860007E209 /* Event.swift in Sources */,
+				B00F4BF621A232540007E209 /* EventInfoViewController.swift in Sources */,
+				B094BB7021A3868F00C3746B /* UserDefaultsExtensions.swift in Sources */,
+				B00F4BFB21A23F5D0007E209 /* EventMapTableViewCell.swift in Sources */,
+				B094BB7A21A392BC00C3746B /* Location.swift in Sources */,
+				B0E36B5921A4DA0F00A6681F /* LocationDelegate.swift in Sources */,
+				B06D85A021A4867400C23954 /* Residence.swift in Sources */,
+				B0E36B5521A4D2DE00A6681F /* LocationSearchViewController.swift in Sources */,
+				B06D859E21A4864700C23954 /* Residences.swift in Sources */,
+				B01BE02C21D96F9500A67E69 /* JSONService.swift in Sources */,
+				B00F4BF221A22C470007E209 /* EventsViewModel.swift in Sources */,
+				B00F4BDA21A20B250007E209 /* AppDelegate.swift in Sources */,
+				B06D85A821A48D7200C23954 /* ResidenceTableViewCell.swift in Sources */,
+				B00F4BF821A232980007E209 /* EventInfoViewModel.swift in Sources */,
+				B00F4C0321A24ABD0007E209 /* Events.swift in Sources */,
+				B00F4BED21A20E4B0007E209 /* EventsViewController.swift in Sources */,
+				B0E36B5B21A4DAA300A6681F /* LocationViewModel.swift in Sources */,
+				B00F4C0621A24C9A0007E209 /* EventTableViewCell.swift in Sources */,
+				B00F4C0821A24DD40007E209 /* EventViewModel.swift in Sources */,
+				B06D85A621A488D500C23954 /* ResidencesViewModel.swift in Sources */,
+				B00F4C0C21A252140007E209 /* EventDescriptionTableViewCell.swift in Sources */,
+				B06D85A321A487F600C23954 /* ResidencesViewController.swift in Sources */,
+				B00F4C0E21A2545C0007E209 /* EventViewModelable.swift in Sources */,
+				B01BE02E21D9705000A67E69 /* JSONError.swift in Sources */,
+				B06D85AC21A48EFC00C23954 /* ResidenceViewModelable.swift in Sources */,
+				B094BB7821A3929100C3746B /* MapViewModel.swift in Sources */,
+				B094BB7C21A392FF00C3746B /* Locations.swift in Sources */,
+				B00F4BF421A22CAE0007E209 /* TableViewModelable.swift in Sources */,
+				B08E8AD821A4B2D9008C7592 /* ResidenceLocationDelegate.swift in Sources */,
+				B06D85AA21A48E9700C23954 /* ResidenceViewModel.swift in Sources */,
+				B0E36B5721A4D84500A6681F /* MatchedLocationTableViewCell.swift in Sources */,
+				B0E36B5D21A4DAC200A6681F /* LocationViewModelable.swift in Sources */,
+				B00F4C0A21A252070007E209 /* EventHeaderTableViewCell.swift in Sources */,
+				B094BB7321A3921A00C3746B /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B00F4BDD21A20B250007E209 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00F4BDE21A20B250007E209 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00F4BE221A20B260007E209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00F4BE321A20B260007E209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00F4BE621A20B260007E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00F4BE721A20B260007E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00F4BE921A20B260007E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F7942950938DCB7F121A9D /* Pods-UofG Campus Day.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "UofG Campus Day/UofG Campus Day.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 667D8S5SPP;
+				INFOPLIST_FILE = "UofG Campus Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domenicbianchi.UofG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B00F4BEA21A20B260007E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E5207987B94B359B7A0882 /* Pods-UofG Campus Day.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "UofG Campus Day/UofG Campus Day.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 667D8S5SPP;
+				INFOPLIST_FILE = "UofG Campus Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domenicbianchi.UofG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00F4BD121A20B250007E209 /* Build configuration list for PBXProject "UofG Campus Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00F4BE621A20B260007E209 /* Debug */,
+				B00F4BE721A20B260007E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00F4BE821A20B260007E209 /* Build configuration list for PBXNativeTarget "UofG Campus Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00F4BE921A20B260007E209 /* Debug */,
+				B00F4BEA21A20B260007E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00F4BCE21A20B250007E209 /* Project object */;
+}

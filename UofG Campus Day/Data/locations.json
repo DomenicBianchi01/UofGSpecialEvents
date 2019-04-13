@@ -1,0 +1,123 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Mountain Hall",
+            "type": 3,
+            "lat": 43.529985,
+            "long": -80.223836
+        },
+        {
+            "id": 2,
+            "name": "Prairie Hall",
+            "type": 3,
+            "lat": 43.530607,
+            "long": -80.222972
+        },
+        {
+            "id": 3,
+            "name": "Maritime Hall",
+            "type": 3,
+            "lat": 43.531235,
+            "long": -80.222114
+        },
+        {
+            "id": 4,
+            "name": "Johnston Hall",
+            "type": 3,
+            "lat": 43.532954,
+            "long": -80.228634
+        },
+        {
+            "id": 5,
+            "name": "Maids Hall",
+            "type": 3,
+            "lat": 43.534144,
+            "long": -80.228599
+        },
+        {
+            "id": 6,
+            "name": "Mills Hall",
+            "type": 3,
+            "lat": 43.533298,
+            "long": -80.230230
+        },
+        {
+            "id": 7,
+            "name": "Lambton Hall",
+            "type": 3,
+            "lat": 43.535283,
+            "long": -80.230094
+        },
+        {
+            "id": 8,
+            "name": "Lennox & Addington",
+            "type": 3,
+            "lat": 43.534753,
+            "long": -80.231696
+        },
+        {
+            "id": 9,
+            "name": "Watson Hall",
+            "type": 3,
+            "lat": 43.535599,
+            "long": -80.231039
+        },
+        {
+            "id": 10,
+            "name": "Dundas Hall",
+            "type": 3,
+            "lat": 43.535818,
+            "long": -80.223627
+        },
+        {
+            "id": 11,
+            "name": "Glengarry Hall",
+            "type": 3,
+            "lat": 43.535409,
+            "long": -80.223141
+        },
+        {
+            "id": 12,
+            "name": "Lanark Hall",
+            "type": 3,
+            "lat": 43.535769,
+            "long": -80.223018
+        },
+        {
+            "id": 13,
+            "name": "Village Townhouses",
+            "type": 3,
+            "lat": 43.535487,
+            "long": -80.222513
+        },
+        {
+            "id": 14,
+            "name": "Athletic Center",
+            "type": 1,
+            "lat": 43.533140,
+            "long": -80.224527
+        },
+        {
+            "id": 15,
+            "name": "McLaughlin Library",
+            "type": 2,
+            "lat": 43.531499,
+            "long": -80.227685
+        },
+        {
+            "id": 16,
+            "name": "Rozanski Hall",
+            "type": 2,
+            "lat": 43.532265,
+            "long": -80.225856
+        },
+        {
+            "id": 17,
+            "name": "Creelman Hall",
+            "type": 5,
+            "lat": 43.533910,
+            "long": -80.229471
+        }
+    ]
+}
