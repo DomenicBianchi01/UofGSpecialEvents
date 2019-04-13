@@ -1,0 +1,111 @@
+{
+    "residences": [
+        {
+            "id": 1,
+            "locationId": 1,
+            "name": "Mountain Hall",
+            "style": 1,
+            "location": 1,
+            "types": [1, 2, 3]
+        },
+        {
+            "id": 2,
+            "locationId": 2,
+            "name": "Prairie Hall",
+            "style": 1,
+            "location": 1,
+            "types": [1, 2, 3]
+        },
+        {
+            "id": 3,
+            "locationId": 3,
+            "name": "Maritime Hall",
+            "style": 1,
+            "location": 1,
+            "types": [1, 2, 3]
+        },
+        {
+            "id": 4,
+            "locationId": 4,
+            "name": "Johnston Hall",
+            "style": 1,
+            "location": 2,
+            "types": [1, 2, 3]
+        },
+        {
+            "id": 5,
+            "locationId": 5,
+            "name": "Maids Hall",
+            "style": 1,
+            "location": 2,
+            "types": [2]
+        },
+        {
+            "id": 6,
+            "locationId": 6,
+            "name": "Mills Hall",
+            "style": 1,
+            "location": 2,
+            "types": [1, 3, 4]
+        },
+        {
+            "id": 7,
+            "locationId": 7,
+            "name": "Lambton Hall",
+            "style": 4,
+            "location": 2,
+            "types": [1, 2, 3]
+        },
+        {
+            "id": 8,
+            "locationId": 8,
+            "name": "Lennox & Addington",
+            "style": 1,
+            "location": 2,
+            "types": [1, 2, 4]
+        },
+        {
+            "id": 9,
+            "locationId": 9,
+            "name": "Watson Hall (Female Only)",
+            "style": 1,
+            "location": 2,
+            "types": [2]
+        },
+        {
+            "id": 10,
+            "locationId": 10,
+            "name": "Dundas Hall",
+            "style": 2,
+            "location": 3,
+            "types": [1, 2]
+        },
+        {
+            "id": 11,
+            "locationId": 11,
+            "name": "Glengarry Hall",
+            "style": 2,
+            "location": 3,
+            "types": [1, 2]
+        },
+        {
+            "id": 12,
+            "locationId": 12,
+            "name": "Lanark Hall",
+            "style": 2,
+            "location": 3,
+            "types": [1, 2]
+        },
+        {
+            "id": 13,
+            "locationId": 13,
+            "name": "Village Townhouses",
+            "style": 3,
+            "location": 3,
+            "types": [1]
+        }
+    ],
+    "traditional": "A traditional residence consists of a student room, with shared community washroom, kitchenette and common space.",
+    "suite": "A suite consists of two single bedrooms with shared private bathroom and kitchenette with microwave, sink and fridge.",
+    "apartment": "An apartment consists of 6, 8, or 12 single and/or double bedrooms with a shared private bathroom, kitchen, sink and fridge."
+}

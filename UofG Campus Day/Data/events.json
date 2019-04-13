@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "name": "Campus Tour",
+            "description": "Join us on a 1-hour walking tour guided by a current U of G student! You will visit several highlights of our campus including the library, athletic center, and the Cannon!",
+            "location": "AC Mitchel Gym",
+            "date": "March 24, 2019",
+            "startTime": "11:00 AM",
+            "endTime": "1:00 PM",
+            "lat": [43.533140],
+            "long": [-80.224527]
+        },
+        {
+            "id": 2,
+            "name": "Program Sessions - Bachelor of Computing",
+            "description": "Join us for a 30 minute session about the Bachelor of Computing degree (Computer Science and Software Engineering majors).",
+            "location": "Rozh 101",
+            "date": "March 24, 2019",
+            "startTime": "11:00 AM",
+            "endTime": "11:30 AM",
+            "lat": [43.533140],
+            "long": [-80.224527]
+        }
+    ]
+}
