@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49047C1022B9717F0087F68F /* ResidencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49047C0F22B9717F0087F68F /* ResidencesView.swift */; };
+		49047C1222B972260087F68F /* ResidenceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49047C1122B972260087F68F /* ResidenceDetailsView.swift */; };
+		4959888222B148510016A7B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959888122B148510016A7B2 /* SceneDelegate.swift */; };
+		4959888722B14A170016A7B2 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959888622B14A170016A7B2 /* EventView.swift */; };
+		4959888922B16C3D0016A7B2 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959888822B16C3D0016A7B2 /* TabBar.swift */; };
+		4959888B22B16EF90016A7B2 /* EventViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959888A22B16EF90016A7B2 /* EventViewRow.swift */; };
+		4959888E22B1730E0016A7B2 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959888D22B1730E0016A7B2 /* EventDetailsView.swift */; };
+		4959889022B174FE0016A7B2 /* EventDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959888F22B174FE0016A7B2 /* EventDetailsHeaderView.swift */; };
+		496CEC0A22B186FE00AB79E6 /* EventDetailsDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CEC0922B186FE00AB79E6 /* EventDetailsDescriptionView.swift */; };
+		496CEC0C22B18AAC00AB79E6 /* EventDetailsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CEC0B22B18AAC00AB79E6 /* EventDetailsMapView.swift */; };
+		496CEC0E22B18CB200AB79E6 /* EventMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CEC0D22B18CB200AB79E6 /* EventMapView.swift */; };
+		49F214BE22BA8AF00041A75E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F214BD22BA8AF00041A75E /* MapView.swift */; };
 		B00F4BDA21A20B250007E209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F4BD921A20B250007E209 /* AppDelegate.swift */; };
 		B00F4BDF21A20B250007E209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00F4BDD21A20B250007E209 /* Main.storyboard */; };
 		B00F4BE121A20B260007E209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00F4BE021A20B260007E209 /* Assets.xcassets */; };
@@ -53,6 +65,18 @@
 
 /* Begin PBXFileReference section */
 		29E5207987B94B359B7A0882 /* Pods-UofG Campus Day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UofG Campus Day.release.xcconfig"; path = "Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day.release.xcconfig"; sourceTree = "<group>"; };
+		49047C0F22B9717F0087F68F /* ResidencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidencesView.swift; sourceTree = "<group>"; };
+		49047C1122B972260087F68F /* ResidenceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidenceDetailsView.swift; sourceTree = "<group>"; };
+		4959888122B148510016A7B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4959888622B14A170016A7B2 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		4959888822B16C3D0016A7B2 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		4959888A22B16EF90016A7B2 /* EventViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewRow.swift; sourceTree = "<group>"; };
+		4959888D22B1730E0016A7B2 /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
+		4959888F22B174FE0016A7B2 /* EventDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsHeaderView.swift; sourceTree = "<group>"; };
+		496CEC0922B186FE00AB79E6 /* EventDetailsDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsDescriptionView.swift; sourceTree = "<group>"; };
+		496CEC0B22B18AAC00AB79E6 /* EventDetailsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsMapView.swift; sourceTree = "<group>"; };
+		496CEC0D22B18CB200AB79E6 /* EventMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapView.swift; sourceTree = "<group>"; };
+		49F214BD22BA8AF00041A75E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		87F7942950938DCB7F121A9D /* Pods-UofG Campus Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UofG Campus Day.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day.debug.xcconfig"; sourceTree = "<group>"; };
 		94257A38AC0BB94FE0814A1A /* libPods-UofG Campus Day.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UofG Campus Day.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00F4BD621A20B250007E209 /* UofG Campus Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UofG Campus Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,9 +137,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49047C0E22B9715D0087F68F /* Residence */ = {
+			isa = PBXGroup;
+			children = (
+				49047C0F22B9717F0087F68F /* ResidencesView.swift */,
+				49047C1122B972260087F68F /* ResidenceDetailsView.swift */,
+			);
+			path = Residence;
+			sourceTree = "<group>";
+		};
+		4959888322B148B50016A7B2 /* UofG Campus Day - Swift UI */ = {
+			isa = PBXGroup;
+			children = (
+				4959888422B14A010016A7B2 /* Views */,
+			);
+			path = "UofG Campus Day - Swift UI";
+			sourceTree = "<group>";
+		};
+		4959888422B14A010016A7B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4959888822B16C3D0016A7B2 /* TabBar.swift */,
+				4959888C22B172FF0016A7B2 /* EventDetails */,
+				4959888522B14A070016A7B2 /* Events */,
+				49047C0E22B9715D0087F68F /* Residence */,
+				49F214BC22BA8AD90041A75E /* Map */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4959888522B14A070016A7B2 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4959888622B14A170016A7B2 /* EventView.swift */,
+				4959888A22B16EF90016A7B2 /* EventViewRow.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4959888C22B172FF0016A7B2 /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4959888D22B1730E0016A7B2 /* EventDetailsView.swift */,
+				4959888F22B174FE0016A7B2 /* EventDetailsHeaderView.swift */,
+				496CEC0922B186FE00AB79E6 /* EventDetailsDescriptionView.swift */,
+				496CEC0B22B18AAC00AB79E6 /* EventDetailsMapView.swift */,
+				496CEC0D22B18CB200AB79E6 /* EventMapView.swift */,
+			);
+			path = EventDetails;
+			sourceTree = "<group>";
+		};
+		49F214BC22BA8AD90041A75E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				49F214BD22BA8AF00041A75E /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		B00F4BCD21A20B250007E209 = {
 			isa = PBXGroup;
 			children = (
+				4959888322B148B50016A7B2 /* UofG Campus Day - Swift UI */,
 				B00F4BD821A20B250007E209 /* UofG Campus Day */,
 				B00F4BD721A20B250007E209 /* Products */,
 				B00F4C0F21A25E3E0007E209 /* Frameworks */,
@@ -142,6 +225,7 @@
 				B00F4BEE21A22C070007E209 /* Views */,
 				B01BE02A21D96F7C00A67E69 /* API */,
 				B00F4BD921A20B250007E209 /* AppDelegate.swift */,
+				4959888122B148510016A7B2 /* SceneDelegate.swift */,
 				B00F4BDD21A20B250007E209 /* Main.storyboard */,
 				B00F4BE021A20B260007E209 /* Assets.xcassets */,
 				B00F4BE221A20B260007E209 /* LaunchScreen.storyboard */,
@@ -426,19 +510,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UofG Campus Day/Pods-UofG Campus Day-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -451,36 +532,48 @@
 				B00F4C0121A249860007E209 /* Event.swift in Sources */,
 				B00F4BF621A232540007E209 /* EventInfoViewController.swift in Sources */,
 				B094BB7021A3868F00C3746B /* UserDefaultsExtensions.swift in Sources */,
+				4959888722B14A170016A7B2 /* EventView.swift in Sources */,
 				B00F4BFB21A23F5D0007E209 /* EventMapTableViewCell.swift in Sources */,
 				B094BB7A21A392BC00C3746B /* Location.swift in Sources */,
 				B0E36B5921A4DA0F00A6681F /* LocationDelegate.swift in Sources */,
 				B06D85A021A4867400C23954 /* Residence.swift in Sources */,
 				B0E36B5521A4D2DE00A6681F /* LocationSearchViewController.swift in Sources */,
+				49F214BE22BA8AF00041A75E /* MapView.swift in Sources */,
 				B06D859E21A4864700C23954 /* Residences.swift in Sources */,
 				B01BE02C21D96F9500A67E69 /* JSONService.swift in Sources */,
 				B00F4BF221A22C470007E209 /* EventsViewModel.swift in Sources */,
 				B00F4BDA21A20B250007E209 /* AppDelegate.swift in Sources */,
 				B06D85A821A48D7200C23954 /* ResidenceTableViewCell.swift in Sources */,
+				4959888B22B16EF90016A7B2 /* EventViewRow.swift in Sources */,
+				4959888922B16C3D0016A7B2 /* TabBar.swift in Sources */,
 				B00F4BF821A232980007E209 /* EventInfoViewModel.swift in Sources */,
 				B00F4C0321A24ABD0007E209 /* Events.swift in Sources */,
+				4959888222B148510016A7B2 /* SceneDelegate.swift in Sources */,
+				49047C1022B9717F0087F68F /* ResidencesView.swift in Sources */,
 				B00F4BED21A20E4B0007E209 /* EventsViewController.swift in Sources */,
 				B0E36B5B21A4DAA300A6681F /* LocationViewModel.swift in Sources */,
 				B00F4C0621A24C9A0007E209 /* EventTableViewCell.swift in Sources */,
 				B00F4C0821A24DD40007E209 /* EventViewModel.swift in Sources */,
 				B06D85A621A488D500C23954 /* ResidencesViewModel.swift in Sources */,
 				B00F4C0C21A252140007E209 /* EventDescriptionTableViewCell.swift in Sources */,
+				496CEC0E22B18CB200AB79E6 /* EventMapView.swift in Sources */,
+				496CEC0C22B18AAC00AB79E6 /* EventDetailsMapView.swift in Sources */,
 				B06D85A321A487F600C23954 /* ResidencesViewController.swift in Sources */,
 				B00F4C0E21A2545C0007E209 /* EventViewModelable.swift in Sources */,
+				4959889022B174FE0016A7B2 /* EventDetailsHeaderView.swift in Sources */,
 				B01BE02E21D9705000A67E69 /* JSONError.swift in Sources */,
 				B06D85AC21A48EFC00C23954 /* ResidenceViewModelable.swift in Sources */,
 				B094BB7821A3929100C3746B /* MapViewModel.swift in Sources */,
 				B094BB7C21A392FF00C3746B /* Locations.swift in Sources */,
 				B00F4BF421A22CAE0007E209 /* TableViewModelable.swift in Sources */,
 				B08E8AD821A4B2D9008C7592 /* ResidenceLocationDelegate.swift in Sources */,
+				49047C1222B972260087F68F /* ResidenceDetailsView.swift in Sources */,
+				496CEC0A22B186FE00AB79E6 /* EventDetailsDescriptionView.swift in Sources */,
 				B06D85AA21A48E9700C23954 /* ResidenceViewModel.swift in Sources */,
 				B0E36B5721A4D84500A6681F /* MatchedLocationTableViewCell.swift in Sources */,
 				B0E36B5D21A4DAC200A6681F /* LocationViewModelable.swift in Sources */,
 				B00F4C0A21A252070007E209 /* EventHeaderTableViewCell.swift in Sources */,
+				4959888E22B1730E0016A7B2 /* EventDetailsView.swift in Sources */,
 				B094BB7321A3921A00C3746B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -613,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -633,12 +726,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 667D8S5SPP;
 				INFOPLIST_FILE = "UofG Campus Day/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.domenicbianchi.UofG;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domenicbianchi.UofG.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -656,12 +748,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 667D8S5SPP;
 				INFOPLIST_FILE = "UofG Campus Day/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.domenicbianchi.UofG;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domenicbianchi.UofG.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

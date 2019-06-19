@@ -6,9 +6,9 @@
 //  Copyright © 2018 Domenic Bianchi. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
 
-class Residence: Decodable {
+class Residence: Decodable, Identifiable {
     // MARK: - Properties
     let id: Int
     let locationId: Int
@@ -27,11 +27,20 @@ class Residence: Decodable {
         case types
     }
     
-    enum ResidenceLocation: Int {
+    enum ResidenceLocation: Int, Identifiable {
         case south = 1
         case north
         case east
         case other // Only used as a default value
+
+        var id: Int {
+            return self.rawValue
+        }
+
+        //SwiftUI doesn't work with `CaseIterable`
+        static var allCases: [ResidenceLocation] {
+            return [.south, .north, .east]
+        }
     }
 
     enum ResidenceStyle: Int {
@@ -91,16 +100,16 @@ class Residence: Decodable {
         
         var roomTypes: RoomTypes = []
         
-        if types.contains(1) {
+        if types.contains(RoomTypes.single.rawValue) {
             roomTypes.insert(.single)
         }
-        if types.contains(2) {
+        if types.contains(RoomTypes.double.rawValue) {
             roomTypes.insert(.double)
         }
-        if types.contains(3) {
+        if types.contains(RoomTypes.triple.rawValue) {
             roomTypes.insert(.triple)
         }
-        if types.contains(4) {
+        if types.contains(RoomTypes.quad.rawValue) {
             roomTypes.insert(.quad)
         }
         

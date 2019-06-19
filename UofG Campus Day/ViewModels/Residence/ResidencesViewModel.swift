@@ -75,4 +75,32 @@ extension ResidencesViewModel: TableViewModelable {
         
         return cell
     }
+
+    // MARK: SwiftUI
+
+    func residenceName(for location: Residence.ResidenceLocation) -> String {
+        switch location {
+        case .south:
+            return "South Residences"
+        case .north:
+            return "North Residences"
+        case .east:
+            return "East Residences"
+        default:
+            return ""
+        }
+    }
+
+    func sectionFooter(for location: Residence.ResidenceLocation) -> String {
+        if location == .east, let residenceInfo = residenceInfo {
+            return residenceInfo.traditionalDefinition + "\n\n" + residenceInfo.suiteDefinition + "\n\n" + residenceInfo.apartmentDefinition
+        }
+
+        return ""
+    }
+
+
+    func residences(in location: Residence.ResidenceLocation) -> [Residence] {
+        return residenceInfo?.residences.filter { $0.location == location } ?? []
+    }
 }

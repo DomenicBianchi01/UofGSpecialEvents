@@ -6,9 +6,9 @@
 //  Copyright © 2018 Domenic Bianchi. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
 
-class Event: Decodable {
+class Event: Decodable, Identifiable {
     // MARK: - Properties
     let id: Int
     let name: String
