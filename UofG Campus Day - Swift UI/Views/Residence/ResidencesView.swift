@@ -17,8 +17,8 @@ struct ResidencesView : View {
     var body: some View {
         NavigationView {
             //NOTE (Possible SwiftUI bug?): If I do `List(Residence.ResidenceLocation.allCases) { ...`
-            // the list will not layout creatly at all. Instead, it will generate three non-grouped
-            // sections and place display the rows that are supposed to be under each section as one row (basically one row per section).
+            // the list will not layout correctly at all. Instead, it will generate three non-grouped
+            // sections and display the rows that are supposed to be under each section as one row (basically one row per section).
             List {
                 ForEach(Residence.ResidenceLocation.allCases) { location in
                     Section(
